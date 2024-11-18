@@ -1,0 +1,18 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/BubblesTest/app/src/main/res/layout/activity_main.xml" value="0.3416666666666667" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/BubblesTest/app/src/main/res/layout/bubble_settings.xml" value="0.16717325227963525" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/BubblesTest/app/src/main/res/layout/main.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/Alex/AndroidStudioProjects/BubblesTest/app/src/main/res/xml/prefs.xml" value="0.16717325227963525" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

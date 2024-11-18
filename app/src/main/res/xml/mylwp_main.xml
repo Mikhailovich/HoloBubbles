@@ -1,0 +1,5 @@
+<wallpaper xmlns_android="http://schemas.android.com/apk/res/android"
+    android_thumbnail="@drawable/icon"
+    android_description="TEST12"
+    android:settingsActivity="com.example.bubblestest.MyPreferencesActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

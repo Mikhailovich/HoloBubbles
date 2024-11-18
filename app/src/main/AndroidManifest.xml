@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bubblestest">
+
+    <uses-feature android:name="android.software.live_wallpaper"
+        android:required="true" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="test123"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BubblesTest">
+
+        <service
+            android:name=".MyLWPService"
+            android:enabled="true"
+            android:label="Wallpaper Example "
+            android:permission="android.permission.BIND_WALLPAPER"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/mylwp_main" >
+            </meta-data>
+        </service>
+
+        <activity
+            android:name=".MyPreferencesActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".SetWallpaperActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:theme="@android:style/Theme.Light.WallpaperSettings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
